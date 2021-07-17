@@ -1,0 +1,15 @@
+{
+  "name": "cc-faucet",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chromaway/cc-faucet.git"
+  },
+  "dependencies": {
+    "cc-wallet-engine": "git://github.com/chromaway/cc-wallet-engine.git#v0.5.1",
+    "engine.io": "1.5.1",
+    "eureca.io": "0.6.2",
+    "express": "4.12.2",
+    "lodash": "3.5.0"
+  }
+}

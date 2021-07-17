@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+html {
+    font-family: "Source Sans Pro" sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    color: white;
+  background: #303647;
+  background: -moz-radial-gradient(center, circle cover, #454d65 0%, #303647 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #454d65), color-stop(100%, #303647));
+  background: -webkit-radial-gradient(center, circle cover, #454d65 0%, #303647 100%);
+  background: -o-radial-gradient(center, circle cover, #454d65 0%, #303647 100%);
+  background: -ms-radial-gradient(center, circle cover, #454d65 0%, #303647 100%);
+  background: radial-gradient(center, circle cover, #454d65 0%, #303647 100%);
+  background-color: #30364B; 
+}
+
+a, a:visited {
+    color: white;
+}
+
+.asset {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+
+.unconfirmed::before {
+    content: '(';
+}
+.unconfirmed::after {
+    content: ')';
+}
+
+.asset input {
+  margin-top: 10px;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+#asset-template {
+    display: none;
+}
+
+.asset > div {
+    padding: 10px;
+}
+
+.asset .address {
+    font-size: 14px;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+.asset .return-section {
+    display: none;
+}
+
+a.open-return {
+    color: inherit;
+}
+
+#qr-canvas {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .asset > div {
+      display: inline-block;
+      width: 150px;
+  }
+  
+  .asset .address {
+      width: 500px;
+      font-size: inherit;
+  }
+}
